@@ -90,6 +90,9 @@ PRODUCT_PACKAGES += \
     Tag \
     com.android.nfc_extras
 
+# Gallery2
+PRODUCT_PACKAGES += Gallery2
+
 PRODUCT_CHARACTERISTICS := tablet,nosdcard
 
 # we have enough storage space to hold precise GC data
