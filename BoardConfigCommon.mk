@@ -84,5 +84,9 @@ BOARD_USES_GROUPER_MODULES := true
 # Required for CWM
 BOARD_HAS_NO_SELECT_BUTTON := true
 
-TARGET_KERNEL_SOURCE := kernel/asus/grouper
-TARGET_KERNEL_CONFIG := cyanogenmod_grouper_defconfig
+# Use franco kernel
+TARGET_KERNEL_SOURCE := kernel/asus/grouper-franco
+TARGET_KERNEL_CONFIG := tegra3_android_defconfig
+
+#TARGET_KERNEL_SOURCE := kernel/asus/grouper
+#TARGET_KERNEL_CONFIG := cyanogenmod_grouper_defconfig
