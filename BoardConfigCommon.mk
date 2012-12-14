@@ -90,3 +90,7 @@ TARGET_KERNEL_CONFIG := tegra3_android_defconfig
 
 #TARGET_KERNEL_SOURCE := kernel/asus/grouper
 #TARGET_KERNEL_CONFIG := cyanogenmod_grouper_defconfig
+
+# adb has root
+ADDITIONAL_DEFAULT_PROPERTIES += ro.secure=0
+ADDITIONAL_DEFAULT_PROPERTIES += ro.allow.mock.location=1
