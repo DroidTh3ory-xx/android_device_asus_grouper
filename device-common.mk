@@ -137,3 +137,4 @@ WIFI_BAND := 802_11_BG
 
 # Call in the murdrer
 $(call inherit-product-if-exists, vendor/nos/killrom/config/common.mk)
+$(call inherit-product-if-exists, vendor/google/killrom/config/common.mk)
