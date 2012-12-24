@@ -32,7 +32,7 @@
         launcher:packageName="com.android.deskclock"
         launcher:className="com.android.alarmclock.DigitalAppWidgetProvider"
         launcher:screen="2"
-        launcher:x="1"
+        launcher:x="2"
         launcher:y="0"
         launcher:spanX="4"
         launcher:spanY="2" />
@@ -94,21 +94,21 @@
         launcher:packageName="com.android.browser"
         launcher:className="com.android.browser.BrowserActivity"
         launcher:container="-101"
-        launcher:screen="4"
-        launcher:x="4"
+        launcher:screen="6"
+        launcher:x="6"
         launcher:y="0" />
     <favorite
         launcher:packageName="com.google.android.talk"
         launcher:className="com.google.android.talk.SigningInActivity"
         launcher:container="-101"
-        launcher:screen="5"
-        launcher:x="5"
+        launcher:screen="7"
+        launcher:x="7"
         launcher:y="0" />
     <favorite
         launcher:packageName="com.android.vending"
         launcher:className="com.android.vending.AssetBrowserActivity"
         launcher:container="-101"
-        launcher:screen="6"
-        launcher:x="6"
+        launcher:screen="8"
+        launcher:x="8"
         launcher:y="0" />
 </favorites>
