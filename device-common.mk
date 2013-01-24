@@ -91,7 +91,10 @@ PRODUCT_PACKAGES += \
     com.android.nfc_extras
 
 # Gallery2
-PRODUCT_PACKAGES += Gallery2
+PRODUCT_PACKAGES += \
+    Gallery2 \
+    libjni_filtershow_filters \
+    libjni_mosaic
 
 PRODUCT_CHARACTERISTICS := tablet,nosdcard
 
